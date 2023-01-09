@@ -1,0 +1,12 @@
+.header {
+    background-color: var(--primary-background-color);
+    border-bottom: solid 1px var(--color-border);
+}
+
+.header a {
+    text-decoration: none;
+}
+.header__nav {
+    display: flex;
+    align-items: center;
+}

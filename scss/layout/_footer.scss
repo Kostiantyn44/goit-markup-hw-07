@@ -1,0 +1,80 @@
+.footer {
+    background-color: var(--secondary-background-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+.footer-logo {
+    display: block;
+    margin-bottom: 20px;
+
+    color: var(--white-text);
+}
+
+.footer__plainting {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__information {
+    width: 231px;
+}
+.footer__adress-link {
+    display: block;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    color: var(--color-for-adress);
+    font-size: 14px;
+    line-height: 1.7;
+    font-style: normal;
+}
+
+.footer__adress-link:hover,
+.footer__adress-link:focus {
+    color: var(--accent-color);
+}
+
+.footer__adress-link--white {
+    color: var(--white-text);
+}
+
+.footer__adress-item+.footer__adress-item {
+    margin-top: 9px;
+}
+.social-networks {
+    margin-left: 70px;
+}
+
+.social-networks__title {
+    margin-bottom: 20px;
+    text-decoration: none;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.social-networks__list {
+    display: flex;
+}
+
+.footer-networks__icon {
+    fill: #ffffff;
+}
+
+.footer-networks+.footer-networks {
+    margin-left: 10px;
+}
+
+.footer-networks {
+    background-color: rgb(255, 255, 255, 10%);
+}

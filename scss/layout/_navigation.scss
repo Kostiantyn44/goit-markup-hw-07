@@ -8,15 +8,6 @@
         position: relative;
     }
 
-    &__link:hover,
-    &__link:focus {
-        color: var(--accent-color);
-    }
-    
-    &__link--current {
-        color: var(--accent-color);
-    }
-
     &__link--current::after {
         content: ' ';
         position: absolute;
@@ -26,6 +17,11 @@
         width: 100%;
         background-color: var(--accent-color);
         border-radius: 2px;
+    }
+
+    &__link:hover,
+    &__link:focus {
+        color: var(--accent-color);
     }
 
     &__link {
@@ -40,6 +36,9 @@
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+    }
+    &__link--current {
+        color: var(--accent-color);
     }
 }
 

@@ -12,18 +12,19 @@
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     overflow-y: auto;
+
+    &__title {
+        margin-bottom: 12px;
+
+        font-size: 20px;
+        line-height: 1.15;
+        text-align: center;
+        color: var(--secondary-text-color);
+    }
 }
 
 .is-hidden {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-}
-.modal__title {
-    margin-bottom: 12px;
-
-    font-size: 20px;
-    line-height: 1.15;
-    text-align: center;
-    color: var(--secondary-text-color);
 }
